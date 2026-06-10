@@ -1,20 +1,14 @@
 # Elementum Homepage Assignment
 
-A pixel-perfect landing page built using React, Vite, Tailwind CSS, and custom CSS based on the provided Figma design.
+A React + Vite implementation of the Elementum homepage based on the provided Figma design.
 
 ## Live Demo
 
-Add your Vercel deployment link here:
-
-```text
-https://your-vercel-url.vercel.app
-```
+https://homepage-assigment.vercel.app
 
 ## GitHub Repository
 
-```text
 https://github.com/arivgupta07-byte/homepage_assigment
-```
 
 ## Tech Stack
 
@@ -22,41 +16,19 @@ https://github.com/arivgupta07-byte/homepage_assigment
 * Vite
 * Tailwind CSS
 * Custom CSS
-* Git & GitHub
+* GitHub
+* Vercel
 
 ## Features
 
-* Responsive navigation bar
-* Hero section with decorative shapes and avatar layout
-* Feature sections with image and content layouts
-* Services section matching the Figma design
-* Testimonials section with floating decorative elements
+* Pixel-perfect homepage implementation
+* Custom Gerbil and Satoshi fonts
+* Hero section with decorative elements and avatar layout
+* Feature showcase sections
+* Services section
+* Testimonials section
 * Newsletter subscription footer
-* Custom fonts (Gerbil & Satoshi)
-
-## Project Structure
-
-```text
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── FeatureSection.jsx
-│   ├── Services.jsx
-│   ├── Testimonials.jsx
-│   └── Footer.jsx
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-
-public/
-├── fonts/
-├── hero images
-├── feature images
-├── service assets
-└── testimonial assets
-```
+* Deployed on Vercel
 
 ## Installation
 
@@ -66,7 +38,7 @@ Clone the repository:
 git clone https://github.com/arivgupta07-byte/homepage_assigment.git
 ```
 
-Move into the project directory:
+Navigate to the project directory:
 
 ```bash
 cd homepage_assigment
@@ -96,12 +68,43 @@ Preview production build:
 npm run preview
 ```
 
-## Design Notes
+## Project Structure
 
-* Implemented according to the provided Figma specifications.
-* Used a combination of Tailwind CSS and custom CSS for precise positioning.
-* Custom typography is loaded using local font files.
-* Decorative shapes, image placements, and spacing were adjusted to closely match the design.
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── FeatureSection.jsx
+│   ├── Services.jsx
+│   ├── Testimonials.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+public/
+├── fonts/
+├── hero images
+├── feature images
+├── service assets
+└── other static files
+```
+
+## Build Status
+
+Production build verified successfully using:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The project is deployed on Vercel:
+
+https://homepage-assigment.vercel.app
 
 ## Author
 
