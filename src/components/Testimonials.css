@@ -1,0 +1,176 @@
+.testimonials {
+  position: relative;
+  max-width: 1844px;
+  width: 100%;
+  min-height: 653px;
+  margin: 170px auto 0;
+}
+/* =========================
+   HEADING
+========================= */
+
+.testimonials-head {
+  position: absolute;
+  width: 685px;
+  height: 149px;
+  left: 608px;
+  top: 0;
+}
+
+.green-pill {
+  position: absolute;
+  width: 207px;
+  height: 70px;
+  left: 0;
+  top: 0;
+
+  background: #d7eedd;
+  border-radius: 100px;
+}
+
+.testimonials-title {
+  position: absolute;
+  width: 666px;
+  height: 132px;
+
+  left: 19px;
+  top: 4px;
+
+  font-family: "Gerbil";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  color: #000;
+}
+
+.yellow-line {
+  position: absolute;
+
+  width: 371px;
+  height: 0;
+
+  left: 255px;
+  top: 119px;
+
+  border-top: 3px solid #ffc250;
+}
+
+/* =========================
+   MESSAGE BOX
+========================= */
+
+.message-box {
+  position: absolute;
+
+  width: 879px;
+  height: 358px;
+
+  left: 520px;
+  top: 194px;
+
+  background: rgba(215, 238, 221, 0.3);
+  border-radius: 60px;
+}
+
+.message-text {
+  position: absolute;
+
+  width: 703px;
+  left: 88px;
+  top: 53px;
+
+  font-family: "Satoshi";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+
+  text-align: center;
+
+  color: #000;
+}
+
+.quote {
+  position: absolute;
+
+  font-size: 80px;
+  line-height: 1;
+}
+
+.quote-left {
+  left: 40px;
+  top: 10px;
+}
+
+.quote-right {
+  right: 40px;
+  bottom: 10px;
+}
+
+/* =========================
+   DECORATIVE CIRCLES
+========================= */
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: #cfd3db;
+}
+
+.circle-1 {
+  width: 125px;
+  height: 123px;
+  left: 161px;
+  top: 4px;
+}
+
+.circle-2 {
+  width: 123px;
+  height: 123px;
+  left: 38px;
+  top: 469px;
+}
+
+.circle-3 {
+  width: 216px;
+  height: 216px;
+  left: 204px;
+  top: 253px;
+}
+
+.circle-4 {
+  width: 74px;
+  height: 74px;
+  left: 71px;
+  top: 219px;
+}
+
+.circle-5 {
+  width: 146px;
+  height: 146px;
+  left: 1643px;
+  top: 4px;
+}
+
+.circle-6 {
+  width: 295px;
+  height: 295px;
+  left: 1587px;
+  top: 358px;
+}
+
+.circle-7 {
+  width: 90px;
+  height: 90px;
+  left: 1478px;
+  top: 83px;
+}
+
+.circle-8 {
+  width: 112px;
+  height: 112px;
+  left: 1500px;
+  top: 236px;
+}

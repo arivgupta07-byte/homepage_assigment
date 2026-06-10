@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Gerbil";
+  src: url("/fonts/Gerbil.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #f5f5f5;
+  overflow-x: hidden;
+  font-family: "Satoshi", sans-serif;
+}
